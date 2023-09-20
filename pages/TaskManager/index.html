@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./taskmanager.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div id="container">
+        <div id="title">
+            <h1>Task Manager</h1>
+        </div>
+        <div id="portfolio">
+            <img src="./bud.jpg" alt="">
+            <div class="wrapper">
+                <div id = "digital-clock"> </div>
+                <div id="date"></div>
+            </div>
+        </div>
+        <div id="body">
+            <div id="mytasks">
+                <hr><h2>My Tasks</h2><hr>
+                <div id="addtask" onclick="add()">
+                    <h4> Add Task</h4>
+                </div>
+                <div id="newentry">
+                    <input type="text" name="tasktext" id="tasktext" placeholder="Task Name">
+                    <!-- <h4>Status</h4> -->
+                </div>
+            </div>
+            <div id="taskadded">
+                <h2>Current Tasks</h2>
+                <hr>
+                <ul id="taskIncomplete" class="container">
+                    <li id="test">
+                        <input type="checkbox">
+                        <label>Take mum shopping</label>
+                        <input type="text" style="display: none">
+                        <button id="edit" onclick="edit_element()">Edit</button>
+                        <button id="delete" onclick="delete_element()">Delete</button>
+                    </li>
+                </ul>          
+            </div>
+            <div id="completedtasks">
+                <h2>Completed Tasks</h2>
+                <hr>
+                <ul id="taskComplete" class="container">
+                    <li id="done">
+                        <!-- <input type="checkbox" checked>
+                        <label>See the Doctor</label>
+                        <input type="text">
+                        <button id="edit">Edit</button>
+                        <button id="delete">Delete</button> -->
+                    </li>
+                </ul>
+                <hr>
+            </div>
+            <div id="colorcode">
+                <button id="blue" onclick="blue()">Blue</button>
+                <button id="dark" onclick="dark()">Dark</button>
+                <button id="pink" onclick="pink()">pink</button>
+                <button id="gray" onclick="gray()">gray</button>
+            </div>
+        </div>
+    </div>
+    <script src="./taskmanager.js"></script>
+</body>
+</html>
