@@ -2,7 +2,7 @@ function Time() {
     var date = new Date();
     var hour = date.getHours();
     var minute = date.getMinutes();
-    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var months = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sept','Oct','Nov','Dec'];
     var days = ['Sun','Mon','Tue','Wed','Thur','Fri','Sat'];
     var month = months[date.getMonth()];
     var year = date.getFullYear();
@@ -24,7 +24,7 @@ function Time() {
     hour = update(hour);
     minute = update(minute);
     document.getElementById("digital-clock").innerText =hour + " : " + minute + " " + period;
-    document.getElementById("date").innerText =  day +", " +dat+ " "+ month  + " " + year +" \n"
+    document.getElementById("date").innerText =  dat+ "th "+ month  + " " + year +" \n"
     setTimeout(Time, 1000);
 }
 function update(t) {

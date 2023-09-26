@@ -1,0 +1,99 @@
+/* Importing Open Sans Condensed Google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+.wrapper{
+/* background-color: #abb1b1; */
+background:linear-gradient(to right, #1b3e67,#141E30);
+width: 50%;
+margin: auto;
+font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+color: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#digital-clock {
+padding-top: 50px;
+padding-bottom: 10px;
+font-size: 64px;
+}
+#date{
+padding-top: 10px;
+padding-bottom: 50px;
+font-size: 32px;
+}
+#analogclock{
+    position: relative;
+    margin: 10vh auto;
+    height: 40vh;
+    width: 40vh;
+    background: url(./download.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#hours,#minutes, #seconds, #circle{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hours{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+#minutes{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+#seconds{
+    width: 1%;
+    height:36%;
+    top: 12%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+#circle{
+    width: 6%;
+    height: 6%;
+    top: 45%;
+    left: 46%;
+}
+@media (max-width:920px){
+    .wrapper{
+        width: 60%;
+    }
+    #digital-clock {
+        font-size: 55px;
+    }
+    #date{
+        font-size: 30px;
+    }
+}
+@media (max-width:720px){
+    .wrapper{
+        width: 70%;
+    }
+    #digital-clock {
+        font-size: 50px;
+    }
+    #date{
+        font-size: 25px;
+    }
+}
+@media (max-width:520px){
+    .wrapper{
+        width: 80%;
+    }
+    #digital-clock {
+        font-size: 40px;
+    }
+    #date{
+        font-size: 20px;
+    }
+}

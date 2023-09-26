@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link id="color-scheme" rel="stylesheet" href="css/colors/main-darkgreen.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/update.css">
   <!-- removeIf(customizerDist)-->
   <link rel="stylesheet" href="../customizer/main.css">
   <!-- endremoveIf(customizerDist)-->
@@ -34,8 +35,7 @@
   <div id="overlay-effect"></div>
   <!-- Navbar-->
   <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
-      <!-- Navbar Logo-->
-      <img class="img-fluid" src="img/img-kitzu-logo.png" alt="Logo"></a>
+    <img class="img-fluid" src="img/img-kitzu-logo.png" alt="Logo"></a>
     <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
     <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
       <!-- Navbar menu-->
@@ -43,7 +43,6 @@
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -63,10 +62,10 @@
       <div class="fixed-block block-right">
         <ul class="list-unstyled social-icons">
           <li><a href="#0"><i class="icon ion-logo-github"></i></a></li>
-          <li><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+          <!-- <li><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
           <li><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
           <li><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
-          <li><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
+          <li><a href="#0"><i class="icon ion-logo-instagram"></i></a></li> -->
         </ul>
       </div>
     </div>
@@ -123,11 +122,11 @@
                     </address>
                     <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="#0" role="button">Download CV</a>
                       <ul class="list-unstyled list-inline content-follow">
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-github"></i></a></li>
+                        <!-- <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
                         <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
                         <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-github"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-facebook"></i></a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -376,21 +375,6 @@
                 </div>
               </div>
             </div>
-            <!-- Video section-->
-            <div class="video-section single-section">
-              <div class="row align-items-center">
-                <div class="col-12 col-lg-6 content-part">
-                  <h3 class="video-title">Take a tour of my office</h3>
-                  <p class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia cum quasi assumenda culpa praesentium consectetur voluptatibus expedita. Voluptatem tempore, aspernatur rem facilis, distinctio nemo! Odio velit, nemo dolorem voluptas!</p>
-                  <p class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui aspernatur unde mollitia, in laborum.</p>
-                </div>
-                <div class="col-12 col-lg-6 video-part"><a class="media-lightbox" href="https://www.youtube.com/watch?v=doteMqP6eSc" data-lightbox>
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <div class="embed-responsive-item element-cover-bg"><span class="play-wrapper"><i class="icon ion-md-play"></i></span></div>
-                    </div>
-                  </a></div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -421,161 +405,39 @@
                 <div class="col-12">
                   <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
                     <li class="list-inline-item tab-active" data-filter="*">All</li>
-                    <li class="list-inline-item" data-filter=".brand">Brand</li> <!-- JS -->
-                    <li class="list-inline-item" data-filter=".design">Design</li> <!-- wordpress -->
-                    <li class="list-inline-item" data-filter=".photos">Photos</li> <!-- React -->
+                    <li class="list-inline-item" data-filter=".JS">JavaScript</li> <!-- JS -->
+                    <li class="list-inline-item" data-filter=".BS">Bootstrap</li> <!-- JS -->
+                    <li class="list-inline-item" data-filter=".WP">WordPress</li> <!-- wordpress -->
+                    <li class="list-inline-item" data-filter=".R">React</li> <!-- React -->
                   </ul>
                 </div>
               </div>
               <!-- Thumbnail list-->
-              <div class="portfolio-grid row">
-                <!-- Add I-frame for all wesite designed -->
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4 design">
-                  <a class="portfolio-item" href="img/item-1.jpg" data-lightbox>
-                    <div class="portfolio-wrapper">
-                      <!-- <div class="item-content">
-                        <h6 class="content-title">Label Tag Mockup</h6><span class="content-more">More Info</span>
-                      </div> -->
-                    </div>
-                  </a>
-                </div>
-                <div class="single-item col-6 col-lg-4 design">
-                  <a class="portfolio-item" href="img/item-1.jpg" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-1.jpg">
-                      <div class="item-content">
-                        <h6 class="content-title">Label Tag Mockup</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4 photos"><a class="portfolio-item" href="img/item-2.jpg" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-2.jpg">
-                      <div class="item-content">
-                        <h6 class="content-title">3D Bag Mockup</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4 design"><a class="portfolio-item" href="img/item-3.jpg" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-3.jpg">
-                      <div class="item-content">
-                        <h6 class="content-title">Modern Bag Design</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4 brand"><a class="portfolio-item" href="img/item-4.jpg" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-4.jpg">
-                      <div class="item-content">
-                        <h6 class="content-title">Coffee Cup Design</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4 brand"><a class="portfolio-item" href="img/item-5.jpg" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-5.jpg">
-                      <div class="item-content">
-                        <h6 class="content-title">T-Shirt Design</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-                <!-- Single item-->
-                <div class="single-item col-6 col-lg-4 photos"><a class="portfolio-item" href="img/item-6.jpg" data-lightbox>
-                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-6.jpg">
-                      <div class="item-content">
-                        <h6 class="content-title">Packaging Box Mockup</h6><span class="content-more">More Info</span>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-              <iframe src="./pages/TaskManager/index.html" frameborder="0"></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Blog lightbox-->
-  <div class="lightbox-wrapper" id="blog" data-simplebar>
-    <div class="container">
-      <div class="lightbox-close">
-        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="lightbox-content">
-            <div class="row">
-              <div class="col-12">
-                <div class="section-heading page-heading">
-                  <p class="section-description">Check out my latest blog posts</p>
-                  <h2 class="section-title">My Blog</h2>
-                  <div class="animated-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Blog section-->
-            <!-- likely remove blog -->
-            <div class="blog-section single-section">
-              <div class="row justify-content-center">
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-1.jpg" alt="Blog post"><span class="content-date">11 Dec, 20</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">Top tools for Photographers</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
+              <div class="portfolio-grid row iframes">
+                <!-- JS -->
+                <div class="single-item col-6 col-lg-6 JS">
+                  <div class="portfolio-wrapper">
+                    <iframe src="./pages/calcu/calculator/index.html" frameborder="0"></iframe>
                   </div>
                 </div>
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-2.jpg" alt="Blog post"><span class="content-date">12 Aug, 20</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">Take a tour of my office</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
+                <div class="single-item col-6 col-lg-6 JS">
+                  <div class="portfolio-wrapper">
+                    <iframe src="./pages/TIKTACTOE/index.html" frameborder="0"></iframe>
                   </div>
                 </div>
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-3.jpg" alt="Blog post"><span class="content-date">4 Feb, 20</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">How i became a Web Designer</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
-                  </div>
-                </div><!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-4.jpg" alt="Blog post"><span class="content-date">11 Dec, 19</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">How to improve work performance</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
+                <div class="single-item col-6 col-lg-6 JS">
+                  <div class="portfolio-wrapper">
+                    <iframe src="./pages/TaskManager/index.html" frameborder="0"></iframe>
                   </div>
                 </div>
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-5.jpg" alt="Blog post"><span class="content-date">15 Nov, 19</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">How to work from home</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
+                <div class="single-item col-6 col-lg-6 JS">
+                  <div class="portfolio-wrapper">
+                    <iframe src="./pages/Clock/index.html" frameborder="0" class="full-width"></iframe>
                   </div>
                 </div>
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-6.jpg" alt="Blog post"><span class="content-date">8 Aug, 19</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">How to enjoy your business trip</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
+                <div class="single-item col-6 col-lg-6 JS">
+                  <div class="portfolio-wrapper">
+                    <iframe src="./pages/Ecommerce/index.html" frameborder="0" class="full-with"></iframe>
                   </div>
                 </div>
               </div>
